@@ -1,2 +1,12 @@
 @import "normalize";
-@import "base/bootstrap-grid";
+
+//bootsrap4 stuff
+@import "base/variables";
+@import "base/mixins/clearfix";
+@import "base/mixins/breakpoints";
+@import "base/mixins/grid-framework";
+@import "base/mixins/grid";
+@import "base/grid";
+
+//custom css
+@import "base/custom";

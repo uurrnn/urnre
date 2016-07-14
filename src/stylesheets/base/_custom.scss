@@ -1,0 +1,8 @@
+body {
+  background: $body-bg;
+  > div {
+    @include make-container-max-widths();
+    @include make-container();
+    background: #ccc;
+  }
+}

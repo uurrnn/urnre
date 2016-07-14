@@ -85,7 +85,7 @@ $border-width:               1px !default;
 //
 // Settings for the `<body>` element.
 
-$body-bg:                    #fff !default;
+$body-bg:                    #eee !default;
 $body-color:                 $gray-dark !default;
 
 
@@ -124,9 +124,9 @@ $grid-breakpoints: (
 
 $container-max-widths: (
   sm: 576px,
-  md: 720px,
-  lg: 940px,
-  xl: 1140px
+  md: 670px,
+  lg: 800px,
+  xl: 960px
 ) !default;
 
 
