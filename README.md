@@ -7,3 +7,5 @@ This is a WIP of my new website
 npm install
 npm start
 ```
+
+Based off [this gulp starter](https://github.com/vigetlabs/gulp-starter)
