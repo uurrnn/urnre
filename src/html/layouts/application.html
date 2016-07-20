@@ -3,11 +3,15 @@
   <head>
     <meta charset="utf-8">
     <title>{% block title %}{{ title }}{% endblock %}</title>
-    <link rel="stylesheet" href="stylesheets/app.css">
+    <link rel="stylesheet" href="/stylesheets/app.css">
     <link href='https://fonts.googleapis.com/css?family=Amatic+SC|Oleo+Script|Poiret+One' rel='stylesheet' type='text/css'>
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
     {% block content %}{% endblock %}
+    {% block blog %}{% endblock %}
+    {% block about %}{% endblock %}
+    {% block stuff %}{% endblock %}
+    {% block contact %}{% endblock %}
   </body>
 </html>
